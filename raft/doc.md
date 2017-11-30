@@ -75,7 +75,7 @@ Consider the following example where this might occur, where Raft entries attemp
 
 `[ 0xbeda Parent: 0xacaa ]`
 
-Where `0xbeda` is the ID of new block, and `0xaa` is the ID of its parent. Here, the initial minter (node 1) is partitioned, and node 2 takes over as the minter.
+Where `0xbeda` is the ID of new block, and `0xacaa` is the ID of its parent. Here, the initial minter (node 1) is partitioned, and node 2 takes over as the minter.
 
 ```
  time                   block submissions
